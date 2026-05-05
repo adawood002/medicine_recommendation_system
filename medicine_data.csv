@@ -1,0 +1,61 @@
+disease,medicine_name,rank,effectiveness_score,description,dosage,warnings,safety_profile
+Flu,Oseltamivir (Tamiflu),1,0.92,Antiviral drug that reduces severity and duration of flu symptoms.,75mg twice daily for 5 days,May cause nausea; take with food.,High
+Flu,Ibuprofen,2,0.82,"NSAID for relieving fever, body ache, and inflammation.",400mg every 6–8 hours,Avoid on empty stomach; not for kidney patients.,Moderate
+Flu,Acetaminophen (Paracetamol),3,0.79,Analgesic for fever and mild pain relief.,500–1000mg every 4–6 hours,Do not exceed 4g/day; avoid alcohol.,High
+Common Cold,Cetirizine,1,0.8,Antihistamine to reduce runny nose and sneezing.,10mg once daily,May cause drowsiness.,High
+Common Cold,Pseudoephedrine,2,0.77,Nasal decongestant for congestion relief.,60mg every 4–6 hours,Avoid if hypertensive; may cause insomnia.,Moderate
+Common Cold,Dextromethorphan,3,0.72,Cough suppressant for dry cough.,15–30mg every 4 hours,Do not use with MAO inhibitors.,Moderate
+COVID-19,Nirmatrelvir/Ritonavir (Paxlovid),1,0.89,Antiviral protease inhibitor for high-risk COVID-19 patients.,300mg nirmatrelvir + 100mg ritonavir twice daily for 5 days,Multiple drug interactions; consult physician.,Moderate
+COVID-19,Dexamethasone,2,0.85,Corticosteroid that reduces inflammation in severe COVID-19.,6mg once daily for up to 10 days,For hospitalised patients on oxygen only.,Moderate
+COVID-19,Remdesivir,3,0.78,IV antiviral for hospitalised COVID-19 patients.,"200mg IV on day 1, then 100mg IV daily for 4 days",Monitor liver enzymes; hospital use only.,Moderate
+Pneumonia,Amoxicillin,1,0.88,First-line antibiotic for community-acquired pneumonia.,500mg–1g three times daily for 7–10 days,Check for penicillin allergy.,High
+Pneumonia,Azithromycin,2,0.84,Macrolide antibiotic effective against atypical pneumonia.,"500mg on day 1, then 250mg daily for 4 days",QT prolongation risk; monitor cardiac patients.,High
+Pneumonia,Levofloxacin,3,0.82,Fluoroquinolone for resistant pneumonia cases.,750mg once daily for 5 days,Avoid in children; tendon rupture risk.,Moderate
+Diabetes,Metformin,1,0.91,First-line oral antidiabetic to lower blood glucose.,500–1000mg twice daily with meals,Avoid in renal impairment; may cause GI upset.,High
+Diabetes,Glipizide,2,0.82,Sulfonylurea that stimulates insulin secretion.,5–20mg once daily before breakfast,Risk of hypoglycaemia; monitor blood sugar.,Moderate
+Diabetes,Empagliflozin,3,0.86,SGLT2 inhibitor with cardiovascular protective effects.,10mg once daily,Risk of UTI and genital infections.,High
+Hypertension,Amlodipine,1,0.9,Calcium channel blocker for lowering blood pressure.,5–10mg once daily,May cause ankle swelling and flushing.,High
+Hypertension,Lisinopril,2,0.88,ACE inhibitor for hypertension and heart failure.,10–40mg once daily,Can cause dry cough; avoid in pregnancy.,High
+Hypertension,Losartan,3,0.86,ARB for hypertension; renal-protective in diabetics.,50–100mg once daily,Monitor potassium levels; avoid in pregnancy.,High
+Migraine,Sumatriptan,1,0.87,Triptan for acute migraine attack relief.,50–100mg at onset; may repeat after 2h,Do not use in cardiovascular disease.,Moderate
+Migraine,Ibuprofen,2,0.76,NSAID for mild-to-moderate migraine pain.,400–600mg at onset,GI irritation; avoid in renal disease.,Moderate
+Migraine,Topiramate,3,0.8,Anticonvulsant used for migraine prophylaxis.,25–100mg once daily (preventive),Cognitive side effects; kidney stone risk.,Moderate
+Gastritis,Omeprazole,1,0.92,PPI to reduce stomach acid and promote healing.,20–40mg once daily before meals,Long-term use may affect bone density.,High
+Gastritis,Ranitidine Alternative (Famotidine),2,0.82,H2 blocker to reduce acid production.,20–40mg twice daily,Dose adjustment in renal impairment.,High
+Gastritis,Antacids (Magnesium Hydroxide),3,0.72,Quick symptomatic relief from heartburn and indigestion.,5–15 mL or 1–2 tablets after meals,Avoid overuse; may cause diarrhoea.,High
+Typhoid,Ciprofloxacin,1,0.89,Fluoroquinolone antibiotic for Salmonella typhi.,500mg twice daily for 10–14 days,Avoid in children; tendon risk.,Moderate
+Typhoid,Azithromycin,2,0.85,Effective against fluoroquinolone-resistant typhoid.,500mg once daily for 7 days,GI side effects.,High
+Typhoid,Ceftriaxone,3,0.91,IV cephalosporin for severe or complicated typhoid.,2–4g IV once daily for 10–14 days,Hospital administration; allergy check.,High
+Malaria,Artemether-Lumefantrine,1,0.94,First-line ACT for uncomplicated P. falciparum malaria.,4 tablets twice daily for 3 days,Take with fatty food; avoid grapefruit.,High
+Malaria,Chloroquine,2,0.8,For P. vivax and P. malariae in sensitive regions.,"600mg initially, then 300mg after 6h, then 150mg for 2 days",Resistance common; G6PD check.,Moderate
+Malaria,Primaquine,3,0.78,Prevents relapse in P. vivax and P. ovale infections.,15mg once daily for 14 days,Contraindicated in G6PD deficiency and pregnancy.,Low
+Dengue,Acetaminophen (Paracetamol),1,0.85,Fever and pain management in dengue fever.,500–1000mg every 4–6 hours,Avoid NSAIDs due to bleeding risk.,High
+Dengue,IV Fluids (Supportive),2,0.9,Fluid replacement to manage dengue haemorrhagic fever.,As prescribed by physician,Hospital monitoring required.,High
+Dengue,Platelet Transfusion,3,0.88,"For severe thrombocytopenia (<20,000 platelets/µL).",As prescribed,Risk of transfusion reactions.,Moderate
+Tuberculosis,HRZE Regimen (Rifampicin+INH+PZA+EMB),1,0.95,Standard 6-month first-line TB treatment regimen.,Fixed-dose combination as per weight-band,Hepatotoxicity; monthly LFT monitoring.,Moderate
+Tuberculosis,Isoniazid (INH),2,0.88,Core bactericidal drug in TB regimen.,300mg once daily,Peripheral neuropathy; give pyridoxine supplement.,Moderate
+Tuberculosis,Pyrazinamide,3,0.82,Sterilising drug used in intensive phase of TB treatment.,1.5–2g daily based on weight,Hyperuricaemia; avoid in liver disease.,Moderate
+Anemia,Ferrous Sulphate,1,0.88,Oral iron supplementation for iron-deficiency anaemia.,200mg three times daily,GI upset; constipation common. Take with Vit C.,High
+Anemia,Folic Acid,2,0.82,For folate-deficiency anaemia and megaloblastic anaemia.,5mg once daily,Rule out B12 deficiency first.,High
+Anemia,Cyanocobalamin (B12),3,0.85,For B12-deficiency and pernicious anaemia.,1000mcg IM monthly or 1000mcg oral daily,Hypokalaemia after initiation in severe cases.,High
+Asthma,Salbutamol (Albuterol) Inhaler,1,0.93,Short-acting bronchodilator for acute asthma relief.,2 puffs every 4–6 hours as needed,Overuse may mask worsening disease.,High
+Asthma,Budesonide Inhaler,2,0.87,Inhaled corticosteroid for long-term asthma control.,200–400mcg twice daily,Rinse mouth after use to prevent thrush.,High
+Asthma,Montelukast,3,0.8,Leukotriene receptor antagonist for maintenance therapy.,10mg once daily at night,Neuropsychiatric effects in some patients.,Moderate
+Urinary_Tract_Infection,Nitrofurantoin,1,0.87,First-line antibiotic for uncomplicated UTI.,100mg twice daily for 5–7 days,Not for upper UTI or renal impairment.,High
+Urinary_Tract_Infection,Trimethoprim,2,0.82,Antibiotic for UTI where sensitivity is confirmed.,200mg twice daily for 7 days,Folate antagonist; avoid in pregnancy.,Moderate
+Urinary_Tract_Infection,Ciprofloxacin,3,0.86,Used for complicated UTI or pyelonephritis.,500mg twice daily for 7–14 days,Reserve for resistant cases.,Moderate
+Arthritis,Ibuprofen,1,0.85,NSAID for pain and inflammation in arthritis.,400–600mg three times daily,GI bleeding risk; avoid with anticoagulants.,Moderate
+Arthritis,Methotrexate,2,0.88,DMARD for rheumatoid arthritis disease modification.,7.5–25mg once weekly,Hepatotoxic; regular blood monitoring required.,Moderate
+Arthritis,Hydroxychloroquine,3,0.8,Antimalarial DMARD for mild-to-moderate RA.,200–400mg once daily,Annual ophthalmology check for retinopathy.,High
+Depression,Sertraline (Zoloft),1,0.87,SSRI antidepressant — first-line for major depression.,50–200mg once daily,Suicidal ideation risk initially; monitor closely.,High
+Depression,Escitalopram,2,0.86,SSRI with good tolerability for depression and anxiety.,10–20mg once daily,QT prolongation at high doses.,High
+Depression,Venlafaxine,3,0.84,SNRI for depression with anxious features.,75–225mg once daily (extended release),Discontinuation syndrome; taper slowly.,Moderate
+Anxiety,Escitalopram,1,0.88,First-line SSRI for generalised anxiety disorder.,10–20mg once daily,Takes 2–4 weeks for full effect.,High
+Anxiety,Sertraline,2,0.85,Effective SSRI for multiple anxiety disorders.,50–200mg once daily,Initial anxiety increase possible.,High
+Anxiety,Buspirone,3,0.78,Non-benzodiazepine anxiolytic for chronic anxiety.,15–30mg daily in divided doses,Not for acute anxiety; 2-week delay in effect.,High
+Hypothyroidism,Levothyroxine (T4),1,0.95,Synthetic thyroid hormone replacement therapy.,1.6mcg/kg/day once daily on empty stomach,Take 30–60 min before breakfast; many drug interactions.,High
+Hypothyroidism,Liothyronine (T3),2,0.82,Synthetic T3 used when T4 conversion is impaired.,5–25mcg daily in divided doses,Cardiac risk at higher doses; careful titration.,Moderate
+Hypothyroidism,Desiccated Thyroid Extract,3,0.78,Natural thyroid extract containing T3 and T4.,As prescribed based on TSH levels,Variable potency; some patients prefer synthetic.,Moderate
+Bronchitis,Amoxicillin-Clavulanate,1,0.83,Antibiotic for bacterial acute bronchitis exacerbations.,875/125mg twice daily for 5–7 days,GI side effects; penicillin allergy check.,High
+Bronchitis,Salbutamol Inhaler,2,0.8,Bronchodilator to relieve wheeze in bronchitis.,2 puffs every 4–6 hours as needed,Tremor and palpitations at high doses.,High
+Bronchitis,Guaifenesin (Expectorant),3,0.72,Expectorant to thin and loosen mucus.,200–400mg every 4 hours,Drink plenty of fluids.,High
